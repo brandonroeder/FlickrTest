@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA44010C18C6AE62007B3739"
-               BuildableName = "FlickrRocket.app"
+               BuildableName = "FlickrTest.app"
                BlueprintName = "FlickrTest"
                ReferencedContainer = "container:FlickrTest.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA44012D18C6AE62007B3739"
-               BuildableName = "FlickrRocketTests.xctest"
+               BuildableName = "FlickrTestTests.xctest"
                BlueprintName = "FlickrTestTests"
                ReferencedContainer = "container:FlickrTest.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA44010C18C6AE62007B3739"
-            BuildableName = "FlickrRocket.app"
+            BuildableName = "FlickrTest.app"
             BlueprintName = "FlickrTest"
             ReferencedContainer = "container:FlickrTest.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA44010C18C6AE62007B3739"
-            BuildableName = "FlickrRocket.app"
+            BuildableName = "FlickrTest.app"
             BlueprintName = "FlickrTest"
             ReferencedContainer = "container:FlickrTest.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA44010C18C6AE62007B3739"
-            BuildableName = "FlickrRocket.app"
+            BuildableName = "FlickrTest.app"
             BlueprintName = "FlickrTest"
             ReferencedContainer = "container:FlickrTest.xcodeproj">
          </BuildableReference>

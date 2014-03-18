@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  FlickrRocket
+//  FlickrTest
 //
 //  Created by Brandon Roeder on 3/4/14.
 //  Copyright (c) 2014 Brandon Roeder. All rights reserved.

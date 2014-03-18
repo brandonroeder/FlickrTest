@@ -20,7 +20,7 @@
 		CA44013118C6AE62007B3739 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA44011018C6AE62007B3739 /* Foundation.framework */; };
 		CA44013218C6AE62007B3739 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA44011418C6AE62007B3739 /* UIKit.framework */; };
 		CA44013A18C6AE62007B3739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA44013818C6AE62007B3739 /* InfoPlist.strings */; };
-		CA44013C18C6AE62007B3739 /* FlickrRocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44013B18C6AE62007B3739 /* FlickrRocketTests.m */; };
+		CA44013C18C6AE62007B3739 /* FlickrTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA44013B18C6AE62007B3739 /* FlickrTestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		CA44012F18C6AE62007B3739 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CA44013718C6AE62007B3739 /* FlickrTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickrTestTests-Info.plist"; sourceTree = "<group>"; };
 		CA44013918C6AE62007B3739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CA44013B18C6AE62007B3739 /* FlickrRocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrRocketTests.m; sourceTree = "<group>"; };
+		CA44013B18C6AE62007B3739 /* FlickrTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickrTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		CA44010418C6AE62007B3739 = {
 			isa = PBXGroup;
 			children = (
-				CA44011618C6AE62007B3739 /* FlickrRocket */,
-				CA44013518C6AE62007B3739 /* FlickrRocketTests */,
+				CA44011618C6AE62007B3739 /* FlickrTest */,
+				CA44013518C6AE62007B3739 /* FlickrTestTests */,
 				CA44010F18C6AE62007B3739 /* Frameworks */,
 				CA44010E18C6AE62007B3739 /* Products */,
 			);
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA44011618C6AE62007B3739 /* FlickrRocket */ = {
+		CA44011618C6AE62007B3739 /* FlickrTest */ = {
 			isa = PBXGroup;
 			children = (
 				CA44011F18C6AE62007B3739 /* AppDelegate.h */,
@@ -120,6 +120,7 @@
 				CA44012818C6AE62007B3739 /* Images.xcassets */,
 				CA44011718C6AE62007B3739 /* Supporting Files */,
 			);
+			name = FlickrTest;
 			path = FlickrRocket;
 			sourceTree = "<group>";
 		};
@@ -134,12 +135,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CA44013518C6AE62007B3739 /* FlickrRocketTests */ = {
+		CA44013518C6AE62007B3739 /* FlickrTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				CA44013B18C6AE62007B3739 /* FlickrRocketTests.m */,
+				CA44013B18C6AE62007B3739 /* FlickrTestTests.m */,
 				CA44013618C6AE62007B3739 /* Supporting Files */,
 			);
+			name = FlickrTestTests;
 			path = FlickrRocketTests;
 			sourceTree = "<group>";
 		};
@@ -259,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA44013C18C6AE62007B3739 /* FlickrRocketTests.m in Sources */,
+				CA44013C18C6AE62007B3739 /* FlickrTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
